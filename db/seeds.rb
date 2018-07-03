@@ -12,8 +12,8 @@ users = User.create([
 ])
 
 books = Book.create([
-  {name: "Harry Potter and the Prisoner of Azkaban", author: "J.K. Rowling", cover_img: "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", user_id: 1},
-  {name: "Harry Potter - A Journey Through A History of Magic", author: "British Library", cover_img: "http://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", user_id: 1}
+  {title: "Harry Potter and the Prisoner of Azkaban", author: "J.K. Rowling", image: "http://books.google.com/books/content?id=Sm5AKLXKxHgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", user_id: 1},
+  {title: "Harry Potter - A Journey Through A History of Magic", author: "British Library", image: "http://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", user_id: 1}
 ])
 
 lendings = Lending.create([
